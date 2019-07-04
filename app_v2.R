@@ -683,13 +683,13 @@ server <- function(input, output) {
   })
   
   
-  ## Pixel Intensities
+  ## sigmode plot
   output$graph_plot <- renderPlot({
     req(input$image1)
     par(mfrow=c(4,1))
     b1()
   })
-  ## Pixel Intensities
+  ## G/R ratio table
   output$table <- renderTable({
     req(input$image1)
     b1()
