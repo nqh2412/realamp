@@ -683,7 +683,7 @@ server <- function(input, output) {
   })
   
   
-  ## sigmode plot
+  ## sigmoid plot
   output$graph_plot <- renderPlot({
     req(input$image1)
     par(mfrow=c(4,1))
