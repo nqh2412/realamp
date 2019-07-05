@@ -309,7 +309,7 @@ roi_select.cimg <- function(img, threshold = 50, shrink = 5, grow = 5, fill = 5,
   # however, I currently cannot since these arguments are optional
   #crop and rotate the image
   
-  img <- img_crop(img, x_1 = 3.5, x_2 = 1.65, y_1 = 2.3, y_2 = 5)
+  #img <- img_crop(img, x_1 = 3.5, x_2 = 1.65, y_1 = 2.3, y_2 = 5)
   img <- imrotate(img,270)
   # change image to gray scale
   img.g <- grayscale(img)
